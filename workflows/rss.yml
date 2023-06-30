@@ -3,6 +3,7 @@ on:
     url: 
       - http://www.ruanyifeng.com/blog/atom.xml
       - https://sspai.com/feed
+      - https://hnrss.org/newest?points=300&count=3
 jobs:
   request:
     name: make a http Request
