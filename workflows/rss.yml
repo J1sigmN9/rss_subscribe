@@ -12,7 +12,7 @@ jobs:
         uses: actionsflow/axios@v1
         with:
           url: https://cubox.pro/c/api/save/v8v9x0xm4ov6zo
-          method: POST
+          method: GET
           body: |
             {
               "type":"url",
