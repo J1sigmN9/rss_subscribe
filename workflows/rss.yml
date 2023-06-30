@@ -11,7 +11,7 @@ jobs:
       - name: http Request
         uses: actionsflow/axios@v1
         with:
-          url: https://tauri.localhost/c/api/save/o8j4go7kbrpcdy
+          url: ${{secrets.my_api}}
           method: POST
           body: |
             {
